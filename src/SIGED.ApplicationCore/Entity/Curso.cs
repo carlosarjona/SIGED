@@ -8,6 +8,6 @@ namespace SIGED.ApplicationCore.Entity
     {
         public int CursoId { get; set; }
         public string CursoNome { get; set; }
-        
+        public List<Matricula> Matriculas { get; set; }
     }
 }

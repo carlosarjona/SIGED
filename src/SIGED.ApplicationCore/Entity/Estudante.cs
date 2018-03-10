@@ -14,5 +14,6 @@ namespace SIGED.ApplicationCore.Entity
         public int NivelEnsinoId { get; set; }
         public NivelEnsino NivelEnsino { get; set; }
         public string Foto { get; set; }
+        public List<Matricula> Matriculas { get; set; }
     }
 }
